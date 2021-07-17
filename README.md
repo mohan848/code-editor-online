@@ -14,8 +14,8 @@
 
 To check the working of the application,
 
-1) Click 'Start coding' on home screen
-2) Then type the HTML,CSS,Java script code in respective editors.
+1) Click 'Start Coding!' on home screen
+2) Then type the HTML, CSS, Java script code in respective editors.
 3) Then lower pane automatically refreshes to generate the live view (output) of the code written.
 
 
