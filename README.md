@@ -8,7 +8,7 @@
 
 ### Execution:
 1) Download the folder and open the folder in terminal or command prompt.
-2) In command prompt type 'npm start' to start the react application. The application will open in browswer.
+2) In command prompt type 'npm start' to start the react application. The application will open in browser.
 
 ### Working:
 
@@ -36,7 +36,7 @@ To check the working of the application,
 
 
 ```css
-/* setting color of heading tag h1 to blue using CSS*/
+/* setting color of heading tag h1 to blue color using CSS*/
 
 h1{
   color:blue;
