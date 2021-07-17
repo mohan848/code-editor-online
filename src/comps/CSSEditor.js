@@ -31,8 +31,7 @@ export default function CSSEditor(parameters){
                 lineWrapping:true,
                 lint:true,
                 mode: language,
-                theme: 'material',
-                lineNumbers: true
+                theme: 'material'
             }}
             />
         </div> 

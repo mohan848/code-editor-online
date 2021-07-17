@@ -6,8 +6,6 @@ import 'codemirror/mode/javascript/javascript'
 import 'codemirror/mode/css/css'
 import {Controlled as ControlledEditor} from 'react-codemirror2'
 
-
-
 export default function HtmlEditor(parameters){
     const{
         language,
@@ -31,8 +29,7 @@ export default function HtmlEditor(parameters){
                 lineWrapping:true,
                 lint:true,
                 mode: language,
-                theme: 'material',
-                lineNumbers: true
+                theme: 'material'
             }}
             />
         </div> 

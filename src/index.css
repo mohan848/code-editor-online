@@ -1,36 +1,20 @@
 .upper_div{
-    background-color:aquamarine;
+    background-color:royalblue;
     height: 50%;
     display: flex;
-
 }
 .lower_div{
-    height: 50%;
+    height: 54vh;
     display: flex;
-
-}
-#share{
-    background-color: black;
-    color: aquamarine;
-    height: 5px;
-
-}
-#share:hover{
-    color: black;
-    background-color: aquamarine;
 }
 
 .editor{
     flex-grow: 1;
     flex-basis: 0;
-    padding: 0.05%;
     height: 50%;
+    padding: 0.05%;
     display: flex;
     flex-direction: column;
-}
-body{
-    margin:0%;
-    background-color: black;
 }
 .title{
     padding-top: 1%;
@@ -38,7 +22,67 @@ body{
     padding-left: 2%;
     background-color: black;
     text-align: left;
-    color:aquamarine;
+    color:aqua;
     font-weight: bold;   
 }
-
+#overlay{
+    opacity:0.8;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+.jumbotron {
+    position:relative;
+  }
+  
+  .jumbotron .container {
+    
+    position:relative;
+    z-index:1000;
+    background:rgba(0,0,0,0.7);
+    padding:2rem;
+    margin-top: 10%;
+    margin-bottom: 100%;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:3px;
+  }
+  
+  .jumbotron-background {
+    object-fit:cover;
+    font-family: 'object-fit: cover;';
+    position:absolute;
+    top:0;
+    z-index:1000;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+  }
+  
+  img.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+  
+  }
+  h2{
+  	color: white;
+  }
+  .lead1{
+  	color: white;
+  }
+  .line{
+  	color: black;
+  }
+  #main{
+      display:none;
+  }
+  .blur_image{
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
