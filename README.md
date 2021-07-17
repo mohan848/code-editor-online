@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Problem Statement: Frontend (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Title: Online Code Editor
 
-## Available Scripts
+### Folder Structure:
 
-In the project directory, you can run:
+'src' folder will contain index.js and index.css and comps folder which will contain all the required java script files.
 
-### `npm start`
+### Execution:
+1) Download the folder and open the folder in terminal or command prompt.
+2) In command prompt type 'npm start' to start the react application. The application will open in browswer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Working:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To check the working of the application,
 
-### `npm test`
+1) Click 'Start coding' on home screen
+2) Then type the HTML,CSS,Java script code in respective editors.
+3) Then lower pane automatically refreshes to generate the live view (output) of the code written.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Sample code to test the application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### HTML:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```html
+<!-- Creating heading and button to test -->
+<h1>Hello World</h1>
+<button id="btn">Click</button>
+```
 
-### `npm run eject`
+#### CSS:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```css
+/* setting color of heading tag h1 to blue using CSS*/
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+h1{
 
-## Learn More
+  color:blue;
+  
+}
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Java Script:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+``` js script
+// setting width and height of a button using javascript
 
-### Code Splitting
+document.getElementById('btn').style.height='50px';
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+document.getElementById('btn').style.width='100px';
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Paste the above code in respective containers to generate the live view.
 
-### Making a Progressive Web App
+### Deployment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I have deployed this react application (Online Code Editor) to github pages.
 
-### Advanced Configuration
+Here is the link: https://mohan848.github.io/code-editor-online/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
