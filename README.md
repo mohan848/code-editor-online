@@ -26,6 +26,7 @@ To check the working of the application,
 
 ```html
 <!-- Creating heading and button to test -->
+
 <h1>Hello World</h1>
 <button id="btn">Click</button>
 ```
@@ -38,9 +39,7 @@ To check the working of the application,
 /* setting color of heading tag h1 to blue using CSS*/
 
 h1{
-
   color:blue;
-  
 }
 ```
 
@@ -50,12 +49,11 @@ h1{
 // setting width and height of a button using javascript
 
 document.getElementById('btn').style.height='50px';
-
 document.getElementById('btn').style.width='100px';
 
 ```
 
-#### Paste the above code in respective containers to generate the live view.
+#### Paste the above code in respective editors to generate the live view (output).
 
 ### Deployment:
 
